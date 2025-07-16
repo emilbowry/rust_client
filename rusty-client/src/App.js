@@ -17,7 +17,8 @@ function App() {
 
     // Use the browser's built-in 'fetch' API to make a request
     // to our Rust server's endpoint.
-    fetch('http://localhost:7878/api/message')
+    // fetch('http://localhost:7878/api/message')
+      fetch('/api/message')
       .then(response => {
         // Check if the response was successful (status code 200-299)
         if (!response.ok) {
