@@ -35,7 +35,7 @@ function App() {
         // If anything goes wrong (network error, server down, etc.),
         // update the error state.
         console.error("Fetch error:", err);
-        setError('Failed to fetch data. Is the Rust server running? Check the c>
+        setError('Failed to fetch data. Is the Rust server running? Check the console.');
       });
   };
 
